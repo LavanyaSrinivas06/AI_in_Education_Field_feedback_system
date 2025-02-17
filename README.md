@@ -88,7 +88,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Authors
 
 Lavanya Srinivas
-Ruchitha Prakask
+Ruchitha Prakash
 Tanisqha Venkataram
 
 
