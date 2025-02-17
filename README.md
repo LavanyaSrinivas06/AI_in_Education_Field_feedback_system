@@ -53,7 +53,7 @@ cd AI_in_Education_Field_feedback_system
 
 Install the required dependencies:
 
-pip install -r requirements.txt
+pip install -r requirement.txt
 
 ## Dataset
 
