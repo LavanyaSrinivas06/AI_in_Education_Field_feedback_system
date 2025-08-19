@@ -75,6 +75,9 @@ Image dataset for facial emotion recognition processed with OpenCV.
    Assess facial emotion recognition performance using DeepFace metrics.
    Compare results from both models to detect inconsistencies in feedback.
 
+   <img width="2078" height="1164" alt="image" src="https://github.com/user-attachments/assets/42dc97e0-d272-460e-91ad-bf283538ab92" />
+
+
 ## Troubleshooting
 
    Installation Issues: Ensure all dependencies are installed properly using pip install -r requirements.txt.
@@ -90,5 +93,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Lavanya Srinivas
 Ruchitha Prakash
 Tanisqha Venkataram
+
 
 
