@@ -1,10 +1,10 @@
-# AI_in_Education_Field_feedback_system
+# AI in Education Field Feedback System
+## Personalized Learning AI Model
 
-# Personalized Learning AI Model
 
 This AI model aims to provide personalized learning experiences by incorporating sentiment analysis and facial expression recognition to analyze student emotions during courses.
 
-## Table of Contents
+## 📑 Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
@@ -15,39 +15,37 @@ This AI model aims to provide personalized learning experiences by incorporating
 - [Evaluation](#evaluation)
 - [Troubleshooting](#troubleshooting)
 - [License](#license)
+- [Authors](#authors)
 
 
 
 ## Introduction
 
-This repository contains an emotion detection project that integrates sentiment analysis from text feedback and facial expression recognition using DeepFace. The goal is to analyze user feedback using text sentiment classification and validate it with facial emotion recognition.
+This repository contains an **emotion detection project** that integrates:
+- **Text sentiment analysis** (Logistic Regression + TF-IDF)
+- **Facial emotion recognition** (DeepFace + OpenCV)
 
 ## Features
 
-Text sentiment analysis using Logistic Regression with TF-IDF vectorization
-
-Facial emotion recognition using DeepFace
-
-Custom stop words filtering for text preprocessing
-
-Hyperparameter tuning using GridSearchCV
-
-Stratified K-Fold cross-validation for model evaluation
-
-Preprocessing steps including tokenization and text cleaning using regex
+- Text sentiment analysis using Logistic Regression with TF-IDF  
+- Facial emotion recognition using DeepFace  
+- Custom stop words filtering for text preprocessing  
+- Hyperparameter tuning with GridSearchCV  
+- Stratified K-Fold cross-validation  
+- Fusion strategy combining text + face analysis
 
 ## Model Architecture
 
-Text Sentiment Analysis: Uses Logistic Regression with TF-IDF vectorization for feature extraction.
+- **Text Sentiment Analysis** → Logistic Regression + TF-IDF vectorization  
+- **Facial Emotion Recognition** → DeepFace-based classifier  
+- **Fusion Strategy** → Combines both results for robust feedback insights 
 
-Facial Emotion Recognition: Utilizes DeepFace for analyzing facial expressions.
+![Architecture Diagram]<img width="1667" height="1164" alt="image" src="https://github.com/user-attachments/assets/66e055b3-23be-48f1-bad7-5c6d8163fd1b" />
 
-Fusion Strategy: Combines results from both text and face analysis to provide a holistic emotional assessment.
 
 ## Setup
-
 Clone the repository:
-
+```bash
 git clone https://github.com/LavanyaSrinivas06/AI_in_Education_Field_feedback_system.git
 cd AI_in_Education_Field_feedback_system
 
@@ -93,6 +91,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Lavanya Srinivas
 Ruchitha Prakash
 Tanisqha Venkataram
+
 
 
 
