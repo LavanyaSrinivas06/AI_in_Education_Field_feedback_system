@@ -45,9 +45,9 @@ This repository contains an **emotion detection project** that integrates:
 
 ## Setup
 Clone the repository:
-```bash
+
 git clone https://github.com/LavanyaSrinivas06/AI_in_Education_Field_feedback_system.git
-cd AI_in_Education_Field_feedback_system
+cd AI_in_Education_Field_feedback_system 
 
 Install the required dependencies:
 
@@ -63,15 +63,24 @@ Image dataset for facial emotion recognition processed with OpenCV.
 
 ## Training
    
-   Train the text sentiment analysis model using Logistic Regression.
-   Fine-tune hyperparameters using GridSearchCV.
-   Train the facial emotion recognition model using DeepFace.
+Train the text sentiment analysis model (Logistic Regression).
+Fine-tune hyperparameters via GridSearchCV.
+Train the facial emotion recognition model (DeepFace).
 
 ## Evaluation
 
    Evaluate text-based sentiment analysis using accuracy scores and classification reports.
    Assess facial emotion recognition performance using DeepFace metrics.
    Compare results from both models to detect inconsistencies in feedback.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c8b4f490-dd44-4391-b905-b329fabbc96e" width="220" />
+  <img src="https://github.com/user-attachments/assets/02949551-b68a-40ae-b4f3-6a06059dada0" width="220" />
+  <img src="https://github.com/user-attachments/assets/d01c6536-cb8c-417e-87c4-e74bb24009ee" width="220" />
+  <img src="https://github.com/user-attachments/assets/af6d1b90-972a-47bf-b29a-216611253b91" width="220" />
+</p>
+
+
+
 
    <img width="2078" height="1164" alt="image" src="https://github.com/user-attachments/assets/42dc97e0-d272-460e-91ad-bf283538ab92" />
 
@@ -91,6 +100,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Lavanya Srinivas
 Ruchitha Prakash
 Tanisqha Venkataram
+
 
 
 
